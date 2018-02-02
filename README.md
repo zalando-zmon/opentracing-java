@@ -1,4 +1,4 @@
-# Zalando OpenTracing
+# Zalando OpenTracing Java Support
 
 [![Build Status](https://travis-ci.org/zalando-zmon/opentracing-java.svg?branch=master)](https://travis-ci.org/zalando-zmon/opentracing-java)
 [![codecov.io](https://codecov.io/github/zalando-zmon/opentracing-java/coverage.svg?branch=master)](https://codecov.io/github/zalando-zmon/opentracing-java?branch=master)
@@ -7,9 +7,12 @@
 
 A collection of helper modules for OpenTracing bootstrapping of various Java application stacks.
 
-The following frameworks + tracer combinations are supported.  See their individual READMEs for details:
+What is OpenTracing?  See http://opentracing.io/documentation and cooresponding it's Java API: https://github.com/opentracing/opentracing-java
 
-* Lightstep
+Currently, the following frameworks + tracer implementation combinations are supported.  See their individual READMEs for details:
+
+* Lightstep: https://github.com/lightstep/lightstep-tracer-java
+
   * [Spring-Boot](./tracing-lightstep-spring-boot-starter/README.md)
   * [Guice](./tracing-lightstep-guice-starter/README.md)
   
