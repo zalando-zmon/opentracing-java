@@ -1,5 +1,8 @@
 # Zalando OpenTracing
 
+[![Build Status](https://travis-ci.org/zalando-zmon/opentracing-java.svg?branch=master)](https://travis-ci.org/zalando-zmon/opentracing-java)
+[![codecov.io](https://codecov.io/github/zalando-zmon/opentracing-java/coverage.svg?branch=master)](https://codecov.io/github/zalando-zmon/opentracing-java?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7a6eee3a996b4d48a24fddf4692929a3)](https://www.codacy.com/app/beverage/opentracing-java?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zalando-zmon/opentracing-java&amp;utm_campaign=Badge_Grade)
 [![MIT](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://opensource.org/licenses/MIT)
 
 A collection of helper modules for OpenTracing bootstrapping of various Java application stacks.
