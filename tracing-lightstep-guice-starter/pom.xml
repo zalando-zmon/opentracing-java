@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>opentracing-java</artifactId>
+        <groupId>org.zalando</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>tracing-lightstep-guice-starter</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>4.1.0</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.lightstep.tracer</groupId>
+            <artifactId>lightstep-tracer-jre</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.lightstep.tracer</groupId>
+            <artifactId>tracer-grpc</artifactId>
+        </dependency>
+    </dependencies>
+</project>
