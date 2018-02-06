@@ -6,7 +6,7 @@
 
     <groupId>org.zalando</groupId>
     <artifactId>opentracing-java</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -112,7 +112,7 @@
 
     <profiles>
         <profile>
-            <id>custom-release</id>
+            <id>release</id>
             <build>
                 <plugins>
                     <plugin>
@@ -171,6 +171,19 @@
     </profiles>
 
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-scm-plugin</artifactId>
+                    <version>1.9.5</version>
+                    <configuration>
+                        <pushChanges>false</pushChanges>
+                        <tag>${project.version}</tag>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
